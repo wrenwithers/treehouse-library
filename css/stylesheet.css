@@ -14,7 +14,7 @@ html {
   background-color: #EDEFF0;
 }
 
-#nav {
+#Nav {
   height: 70px;
   width: 1070px;
   margin: 15px;
@@ -24,7 +24,7 @@ html {
   border-color: #C7C9C9;
 }
 
-#nav p {
+#Nav p {
   width: 70px;
   height: 20px;
   margin-top: 27.5px;
@@ -34,36 +34,30 @@ html {
   color:#374048;
 }
 
-#nav ul {
+#Nav ul {
   list-style-type: none;
   display: inline;
 }
 
-#nav li {
+#Nav li {
   float: right;
   margin: 30px 5px 0px 5px;
-}
-
-.columns {
-  width: 1080px;
-  margin: 15px;
-  padding: 0;
 }
 
 .box {
   height: 300px;
   width: 500px;
-  border-style: solid; 
+  border-style: solid;
   border: 0px .5px 2px .5px;
   border-color: #C7C9C9;
   border-radius: 4px;
-  margin: 15px 15px 15px 15px;
   padding: 0;
 }
 
 #Box1 {
   float:right;
   background-color: #FFFFFF;
+  margin: 15px 25px 15px 12.5px;
 }
 
 #Box1 .header1 {
@@ -77,6 +71,7 @@ html {
 #Box2 {
   float:left;
   background-color: #FFFFFF;
+  margin: 15px 12.5px 15px 25px;
 }
 
 #Box2 .header2 {
@@ -87,9 +82,11 @@ html {
   background-color: #009E77;
 }
 
+
 #Box3 {
   float:right;
   background-color: #FFFFFF;
+  margin: 15px 25px 15px 12.5px;
 }
 
 #Box3 .header3 {
@@ -103,6 +100,7 @@ html {
 #Box4 {
   float:left;
   background-color: #FFFFFF;
+  margin: 15px 12.5px 15px 25px;
 }
 
 #Box4 .header4 {
@@ -111,9 +109,30 @@ html {
   padding: 0;
   margin: 0px 0px 240px 0px;
   background-color: #8685CB;
+}
 
-.cf:after {
-  content:"";
-  display: table;
-  clear: both;
+.box .time {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  color: #FFFFFF;
+  float: right;
+  margin-right: 30px;
+  margin-top: 22px;
+}
+
+button {
+    background-color: #C7C9C9;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline;
+    font-size: 12px;
+  }
+
+.box .btn {
+  height: 35px;
+  width: 100px;
+  margin: 0px 0px 100px 140px;
 }
